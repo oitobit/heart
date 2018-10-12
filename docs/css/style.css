@@ -48,6 +48,13 @@ div.box > button.btn {
     cursor: pointer;
 }
 
+div.heart > img {
+    width: 100%;
+    height: 420px;
+    filter: opacity(.7);
+    display: none;
+}
+
 div.footer {
     width: 100%;
     height: 60px;
