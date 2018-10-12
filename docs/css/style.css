@@ -36,6 +36,13 @@ i.fa-heart {
     margin-right: 5px;
 }
 
+i.fa-angle-left {
+    color: red;
+    margin-right: 5px;
+    font-size: 1.5em;
+    vertical-align: -5px;
+}
+
 div.box > button.btn {
     width: 200px;
     height: 50px;
@@ -52,6 +59,10 @@ div.heart > img {
     width: 100%;
     height: 420px;
     filter: opacity(.7);
+    display: none;
+}
+
+button#hide {
     display: none;
 }
 
