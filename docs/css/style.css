@@ -6,6 +6,7 @@ div.container {
     background-color: #f1f1f1;
 }
 
+/* panel */
 div.panel {
     width: 100%;
     height: 60px;
@@ -24,6 +25,7 @@ div.panel > h1 {
     font-weight: bold;
 }
 
+/* box */
 div.box {
     display: flex;
     justify-content: center;
@@ -31,6 +33,7 @@ div.box {
     height: 200px;
 }
 
+/* icon fontawesome */
 i.fa-heart {
     color: red;
     margin-right: 5px;
@@ -43,26 +46,29 @@ i.fa-angle-left {
     vertical-align: -5px;
 }
 
+/* button */
 div.box > button.btn {
     width: 200px;
     height: 50px;
     background-color: greenyellow;
-    border: none;
+    border: 2px double white;
     border-radius: 3px;
     font-size: 1.5em;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
+button#hide {
+    display: none;
+}
+
+/* img */
 div.heart > img {
     width: 100%;
     height: 320px;
     filter: opacity(.9);
-    display: none;
-}
-
-button#hide {
     display: none;
 }
 
@@ -123,6 +129,7 @@ div.heartbeat::after {
     border-radius: 50%;
 }
 
+/* animate heart */
 @keyframes animate {
     0% {
         transform: rotate(45deg) translate(10px, 10px) scale(1);
@@ -152,6 +159,7 @@ div.heartbeat::after {
 
 }
 
+/* footer */
 div.footer {
     width: 100%;
     height: 60px;
