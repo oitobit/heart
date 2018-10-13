@@ -176,7 +176,7 @@ div.footer > p {
     font-family: 'Indie Flower', cursive;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     html, body {
         margin: 0;
     }
